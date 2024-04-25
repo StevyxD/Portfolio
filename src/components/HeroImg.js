@@ -6,6 +6,7 @@ import { IoLogoCss3 } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
 const HeroImg = () => {
   return (
     <div className="hero ">
@@ -67,7 +68,7 @@ const HeroImg = () => {
 
                   <img
                     className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
-                    src="https://technographx.com/wp-content/uploads/2018/11/what-is-front-end-development-1.jpg"
+                    src="https://tse4.mm.bing.net/th/id/OIP.SRYsQ_uZMPeNMcSV_-CXxgAAAA?rs=1&pid=ImgDetMain"
                   />
                 </div>
                 <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
@@ -122,6 +123,10 @@ const HeroImg = () => {
                       <FaNodeJs />
 
                       <p className="text-3xl">Mongoose</p>
+                    </p>
+                    <p className="text-5xl">
+                      <SiMysql />
+                      <p className="text-3xl">SQL</p>
                     </p>
                   </div>
                 </div>
